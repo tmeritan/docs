@@ -31,6 +31,16 @@ Our example generates the following configuration:
 
 ```
 
-<AccessControlRule Identifier="Administrator_Job_Jobs_Job" DisplayName_L1="Administrator - Management for Job" DisplayName_L2="Administrator - Gestion des Job" EntityType="Job" Profile="Administrator">  <Entry CanExecute="true" Permission="/Jobs/Job/Query" />  <Entry CanExecute="true" Permission="/Jobs/Job/Update" /></AccessControlRule>
+<AccessControlRule
+  Identifier="Administrator_Job_Jobs_Job"
+  DisplayName_L1="Administrator - Management for Job"
+  DisplayName_L2="Administrator - Gestion des Job"
+  EntityType="Job"
+  Profile="Administrator">
+
+    <Entry CanExecute="true" Permission="/Jobs/Job/Query" />
+    <Entry CanExecute="true" Permission="/Jobs/Job/Update" />
+
+</AccessControlRule>
 
 ```
